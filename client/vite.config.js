@@ -28,6 +28,6 @@ export default defineConfig({
 */    
     build: {
         //outDir: '../dist/app',
-        outDir: './client/dist/app',
+        outDir: './client/dist',
     }
 });
