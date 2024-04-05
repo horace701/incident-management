@@ -41,7 +41,7 @@ function MainRouter () {
                     }
                 />
                 <Route path="/user/:userId" element={<Profile />} />
-                <Route path="*" element={<div>Error 404: Incident Management Page not found</div>}
+                <Route path="*" element={<div>Error 404: Incident Management Page not found</div>} />
             </Routes>
         </div>
     );
